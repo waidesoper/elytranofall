@@ -1,0 +1,14 @@
+{
+  "client": [
+  ],
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixins": [
+    "LivingDamagedMixin"
+  ],
+  "package": "crimsonfluff.elytranofallfabric.mixin",
+  "required": true
+}

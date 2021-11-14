@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "elytranofall-fabric",
+  "version": "${version}",
+  "name": "Elytranofall Fabric",
+  "description": "",
+  "authors": [
+    "crimsonfluff",
+    "sadiewopen"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/elytranofall-fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "crimsonfluff.elytranofallfabric.client.ElytranofallFabricClient"
+    ],
+    "main": [
+      "crimsonfluff.elytranofallfabric.ElytranofallFabric"
+    ]
+  },
+  "mixins": [
+    "elytranofall-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
