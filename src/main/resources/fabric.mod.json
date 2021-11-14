@@ -2,20 +2,17 @@
   "schemaVersion": 1,
   "id": "elytranofall-fabric",
   "version": "${version}",
-  "name": "Elytranofall Fabric",
+  "name": "ElytraNoFallFabric",
   "description": "",
   "authors": [
     "crimsonfluff",
     "sadiewopen"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "GPLv3",
   "icon": "assets/elytranofall-fabric/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "crimsonfluff.elytranofallfabric.client.ElytranofallFabricClient"
-    ],
     "main": [
       "crimsonfluff.elytranofallfabric.ElytranofallFabric"
     ]
