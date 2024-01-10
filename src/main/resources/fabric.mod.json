@@ -10,7 +10,6 @@
   ],
   "contact": {},
   "license": "GPLv3",
-  "icon": "assets/elytranofall-fabric/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -21,8 +20,8 @@
     "elytranofall-fabric.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.3",
+    "fabricloader": ">=0.15.3",
     "fabric": "*",
-    "minecraft": "1.16.5"
+    "minecraft": "1.20.2"
   }
 }
